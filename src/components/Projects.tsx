@@ -8,7 +8,7 @@ const Projects = () => {
       description: "A responsive portfolio site built using HTML, CSS, and JavaScript. Features modern design, smooth animations, and mobile-first approach.",
       link: "https://github.com/yourusername/portfolio",
       tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      image: "/public/assets/Screenshot 2025-09-07 at 10.51.26 PM.png"
+      image: "/Portfolio/assets/Screenshot 2025-09-07 at 10.51.26 PM.png"
     },
     {
       name: "Library Management System",
