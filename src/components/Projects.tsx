@@ -8,7 +8,7 @@ const Projects = () => {
       description: "A responsive portfolio site built using HTML, CSS, and JavaScript. Features modern design, smooth animations, and mobile-first approach.",
       link: "https://github.com/yourusername/portfolio",
       tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      image: "https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "/public/assets/Screenshot 2025-09-07 at 10.51.26 PM.png"
     },
     {
       name: "Library Management System",
@@ -17,13 +17,7 @@ const Projects = () => {
       tech: ["Java", "MySQL", "Swing", "JDBC"],
       image: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
-    {
-      name: "Data Visualization Dashboard",
-      description: "Created with Python and matplotlib to analyze and visualize datasets. Interactive charts and comprehensive data insights.",
-      link: "https://github.com/yourusername/dashboard",
-      tech: ["Python", "Matplotlib", "Pandas", "NumPy"],
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
-    }
+    
   ];
 
   return (

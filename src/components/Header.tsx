@@ -30,23 +30,27 @@ const Header = () => {
   ];
 
   return (
-    <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
-    }`}>
+    <header
+      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-white/10 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      }`}
+    >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-slate-800 hover:text-blue-600 transition-colors cursor-pointer"
-               onClick={() => scrollToSection('hero')}>
+          <div
+            className="text-2xl font-bold text-white hover:text-blue-300 transition-colors cursor-pointer"
+            onClick={() => scrollToSection('hero')}
+          >
             Portfolio
           </div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-slate-700 hover:text-blue-600 transition-colors font-medium"
+                className="text-white hover:text-blue-300 transition-colors font-medium"
               >
                 {item.label}
               </button>
@@ -55,7 +59,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-slate-700 hover:text-blue-600 transition-colors"
+            className="md:hidden text-white hover:text-blue-300 transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -69,7 +73,7 @@ const Header = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="block w-full text-left py-2 text-slate-700 hover:text-blue-600 transition-colors font-medium"
+                className="block w-full text-left py-2 text-white hover:text-blue-300 transition-colors font-medium"
               >
                 {item.label}
               </button>

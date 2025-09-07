@@ -27,20 +27,15 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "youremail@example.com",
-      href: "mailto:youremail@example.com"
+      value: "Mohamednafris.nrs@gmail.com",
+      href: "mailto:Mohamednafris.nrs@gmail.com"
     },
-    {
-      icon: <Linkedin className="w-6 h-6" />,
-      label: "LinkedIn",
-      value: "linkedin.com/in/yourusername",
-      href: "https://linkedin.com/in/yourusername"
-    },
+   
     {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
-      value: "github.com/yourusername",
-      href: "https://github.com/yourusername"
+      value: "github.com/mohamednafrisnrs-source",
+      href: "https://github.com/mohamednafrisnrs-source"
     }
   ];
 

@@ -2,14 +2,13 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    { name: "HTML", level: 90, color: "bg-orange-500" },
-    { name: "CSS", level: 85, color: "bg-blue-500" },
-    { name: "JavaScript", level: 80, color: "bg-yellow-500" },
-    { name: "Python", level: 75, color: "bg-green-500" },
-    { name: "Java", level: 70, color: "bg-red-500" },
-    { name: "SQL", level: 85, color: "bg-purple-500" },
+
+    { name: "JavaScript", level: 80, color: "bg-gray-700" },
+    { name: "Python", level: 75, color: "bg-gray-700" },
+    { name: "Java", level: 70, color: "bg-gray-700" },
+    { name: "SQL", level: 85, color: "bg-gray-700" },
     { name: "GitHub", level: 80, color: "bg-gray-700" },
-    { name: "Problem Solving", level: 90, color: "bg-indigo-500" }
+    { name: "Problem Solving", level: 90, color: "bg-gray-700" }
   ];
 
   return (

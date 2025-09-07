@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap, Code, Database } from 'lucide-react';
+import { GraduationCap, Code, MonitorPlay } from 'lucide-react';
 
 const About = () => {
   const highlights = [
@@ -14,9 +14,9 @@ const About = () => {
       description: "Specializing in modern web technologies and frameworks"
     },
     {
-      icon: <Database className="w-8 h-8" />,
-      title: "Database Management",
-      description: "Experience with SQL and database design principles"
+      icon: <MonitorPlay className="w-8 h-8" />,
+      title: "Video Creator",
+      description: "Experience with video production and editing techniques"
     }
   ];
 
@@ -31,15 +31,14 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                I am an undergraduate student pursuing a degree in Information Systems. 
-                Passionate about software development, problem-solving, and creating impactful 
-                digital solutions. I specialize in web development, databases, and emerging technologies.
+                I am a passionate web developer and creative video creator, 
+                currently pursuing my degree in Information Systems at Sabaragamuwa University of Sri Lanka. With a strong interest in technology and design,
+                I enjoy building modern, user-friendly web experiences while also expressing creativity through visual storytelling.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed">
-                My journey in technology started with curiosity and has evolved into a deep passion 
-                for creating solutions that make a difference. I'm always eager to learn new technologies 
-                and take on challenging projects.
+               My journey in Information Systems has strengthened my problem-solving and analytical skills,
+               which I bring into both my development projects and content creation. I am eager to keep learning, exploring new technologies, and applying my skills to create impactful digital solutions.
               </p>
             </div>
             
