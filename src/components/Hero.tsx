@@ -31,8 +31,8 @@ const Hero = () => {
             View My Work
           </button>
         </div>
-        <div className="absolute bottom-6 right-8 animate-bounce">
-          <ChevronDown size={32} className="text-slate-500" />
+        <div className="absolute bottom-4 right-9 animate-bounce">
+          <ChevronDown size={32} className="text-slate-200" />
         </div>
       </div>
     </section>
