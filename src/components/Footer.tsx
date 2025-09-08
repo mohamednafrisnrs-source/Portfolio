@@ -14,7 +14,7 @@ const Footer = () => {
             <p className="flex items-center justify-center md:justify-start space-x-2">
               <span>Made with</span>
               <Heart size={16} className="text-red-500" />
-              <span>by [Your Name]</span>
+              <span>by Mohamed Nafris</span>
             </p>
             <p className="text-slate-400 text-sm mt-1">
               © 2025 All rights reserved.
