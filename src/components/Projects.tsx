@@ -27,15 +27,15 @@ const Projects = () => {
       id="projects"
       className="min-h-screen flex items-center justify-center bg-white"
     >
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 flex flex-col items-center">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-slate-800 mb-16">Projects</h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center place-items-center max-w-5xl mx-auto">
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                className="w-full max-w-sm bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
               >
                 <div className="h-48 overflow-hidden">
                   <img
