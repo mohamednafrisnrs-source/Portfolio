@@ -12,9 +12,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="flex items-center justify-center md:justify-start space-x-2">
-              <span>Made with</span>
-              <Heart size={16} className="text-red-500" />
-              <span>by Mohamed Nafris</span>
+              <span> Thank you for visiting my portfolio.</span>
             </p>
             <p className="text-slate-400 text-sm mt-1">
               © 2025 All rights reserved.
