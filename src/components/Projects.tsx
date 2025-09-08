@@ -5,32 +5,38 @@ const Projects = () => {
   const projects = [
     {
       name: "Portfolio Website",
-      description: "A responsive portfolio site built using HTML, CSS, and JavaScript. Features modern design, smooth animations, and mobile-first approach.",
+      description:
+        "A responsive portfolio site built using HTML, CSS, and JavaScript. Features modern design, smooth animations, and mobile-first approach.",
       link: "https://github.com/yourusername/portfolio",
       tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      image: "/Portfolio/assets/Screenshot 2025-09-07 at 10.51.26 PM.png"
+      image: "/Portfolio/assets/Screenshot 2025-09-07 at 10.51.26 PM.png",
     },
     {
       name: "Library Management System",
-      description: "A Java-based project for managing library operations efficiently. Includes book cataloging, member management, and lending system.",
+      description:
+        "A Java-based project for managing library operations efficiently. Includes book cataloging, member management, and lending system.",
       link: "https://github.com/yourusername/library-system",
       tech: ["Java", "MySQL", "Swing", "JDBC"],
-      image: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image:
+        "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800",
     },
-    
   ];
 
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section
+      id="projects"
+      className="min-h-screen flex items-center justify-center bg-white"
+    >
       <div className="container mx-auto px-6">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-slate-800 text-center mb-16">
-            Projects
-          </h2>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-4xl font-bold text-slate-800 mb-16">Projects</h2>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center max-w-5xl mx-auto">
             {projects.map((project, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div
+                key={index}
+                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              >
                 <div className="h-48 overflow-hidden">
                   <img
                     src={project.image}
@@ -38,17 +44,17 @@ const Projects = () => {
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
-                
+
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-slate-800 mb-3">
                     {project.name}
                   </h3>
-                  
+
                   <p className="text-slate-600 mb-4 leading-relaxed">
                     {project.description}
                   </p>
-                  
-                  <div className="flex flex-wrap gap-2 mb-4">
+
+                  <div className="flex flex-wrap gap-2 mb-4 justify-center">
                     {project.tech.map((tech, techIndex) => (
                       <span
                         key={techIndex}
@@ -58,8 +64,8 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-                  
-                  <div className="flex space-x-4">
+
+                  <div className="flex justify-center space-x-6">
                     <a
                       href={project.link}
                       target="_blank"
@@ -69,7 +75,7 @@ const Projects = () => {
                       <Github size={16} />
                       <span className="text-sm font-medium">View Code</span>
                     </a>
-                    
+
                     <a
                       href={project.link}
                       target="_blank"
