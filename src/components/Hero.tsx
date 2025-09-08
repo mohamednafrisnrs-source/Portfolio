@@ -26,12 +26,12 @@ const Hero = () => {
           </p>
           <button
             onClick={() => scrollToSection('projects')}
-            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in-delay-3 shadow-lg"
+            className="bg bg-sky-600 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in-delay-3 shadow-lg"
           >
             View My Work
           </button>
         </div>
-        <div className="absolute bottom-8 right-8 animate-bounce">
+        <div className="absolute bottom-10 right-8 animate-bounce">
           <ChevronDown size={32} className="text-slate-500" />
         </div>
       </div>
